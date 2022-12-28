@@ -13105,48 +13105,14 @@ div#notebook {
 <span class="kn">import</span> <span class="nn">requests</span><span class="o">,</span> <span class="nn">io</span>
 
 
-<span class="kn">import</span> <span class="nn">plotly</span>
-<span class="n">plotly</span><span class="o">.</span><span class="n">offline</span><span class="o">.</span><span class="n">init_notebook_mode</span><span class="p">(</span><span class="n">connected</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="c1">#import plotly</span>
+<span class="c1">#plotly.offline.init_notebook_mode(connected=True)</span>
 
 <span class="o">%</span><span class="n">matplotlib</span> <span class="n">inline</span>
 <span class="n">pylab</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;figure.figsize&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-        <script type="text/javascript">
-        window.PlotlyConfig = {MathJaxConfig: 'local'};
-        if (window.MathJax) {MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}
-        if (typeof require !== 'undefined') {
-        require.undef("plotly");
-        requirejs.config({
-            paths: {
-                'plotly': ['https://cdn.plot.ly/plotly-2.8.3.min']
-            }
-        });
-        require(['plotly'], function(Plotly) {
-            window._Plotly = Plotly;
-        });
-        }
-        </script>
-        
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -13179,7 +13145,7 @@ div#notebook {
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-b10c2342-3bae-4105-92b4-e62525cd6727">
+  <div id="df-e2bb7362-5e31-41b5-b347-9dcb1912fef0">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -13244,7 +13210,7 @@ div#notebook {
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-b10c2342-3bae-4105-92b4-e62525cd6727')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-e2bb7362-5e31-41b5-b347-9dcb1912fef0')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -13295,12 +13261,12 @@ div#notebook {
 
       <script>
         const buttonEl =
-          document.querySelector('#df-b10c2342-3bae-4105-92b4-e62525cd6727 button.colab-df-convert');
+          document.querySelector('#df-e2bb7362-5e31-41b5-b347-9dcb1912fef0 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-b10c2342-3bae-4105-92b4-e62525cd6727');
+          const element = document.querySelector('#df-e2bb7362-5e31-41b5-b347-9dcb1912fef0');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -13354,7 +13320,7 @@ div#notebook {
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-d2f3924e-0668-4c94-b017-f16d917b5e56">
+  <div id="df-8e596186-78ca-46d1-a022-92dae8f3aec1">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -13429,7 +13395,7 @@ div#notebook {
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-d2f3924e-0668-4c94-b017-f16d917b5e56')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-8e596186-78ca-46d1-a022-92dae8f3aec1')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -13480,12 +13446,12 @@ div#notebook {
 
       <script>
         const buttonEl =
-          document.querySelector('#df-d2f3924e-0668-4c94-b017-f16d917b5e56 button.colab-df-convert');
+          document.querySelector('#df-8e596186-78ca-46d1-a022-92dae8f3aec1 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-d2f3924e-0668-4c94-b017-f16d917b5e56');
+          const element = document.querySelector('#df-8e596186-78ca-46d1-a022-92dae8f3aec1');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -13541,7 +13507,7 @@ div#notebook {
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-2b732a81-5582-4424-b6a3-de482e0cd36b">
+  <div id="df-fa9d5c38-b123-4666-a4ae-7f70b0fe8aaa">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -13619,7 +13585,7 @@ div#notebook {
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-2b732a81-5582-4424-b6a3-de482e0cd36b')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-fa9d5c38-b123-4666-a4ae-7f70b0fe8aaa')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -13670,12 +13636,12 @@ div#notebook {
 
       <script>
         const buttonEl =
-          document.querySelector('#df-2b732a81-5582-4424-b6a3-de482e0cd36b button.colab-df-convert');
+          document.querySelector('#df-fa9d5c38-b123-4666-a4ae-7f70b0fe8aaa button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-2b732a81-5582-4424-b6a3-de482e0cd36b');
+          const element = document.querySelector('#df-fa9d5c38-b123-4666-a4ae-7f70b0fe8aaa');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -13731,7 +13697,7 @@ div#notebook {
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-7f227730-5b6d-465f-b6d9-d24593e04be2">
+  <div id="df-514e9226-31f7-45e0-a282-d2eb0b1b8c0b">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -13820,7 +13786,7 @@ div#notebook {
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-7f227730-5b6d-465f-b6d9-d24593e04be2')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-514e9226-31f7-45e0-a282-d2eb0b1b8c0b')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -13871,12 +13837,12 @@ div#notebook {
 
       <script>
         const buttonEl =
-          document.querySelector('#df-7f227730-5b6d-465f-b6d9-d24593e04be2 button.colab-df-convert');
+          document.querySelector('#df-514e9226-31f7-45e0-a282-d2eb0b1b8c0b button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-7f227730-5b6d-465f-b6d9-d24593e04be2');
+          const element = document.querySelector('#df-514e9226-31f7-45e0-a282-d2eb0b1b8c0b');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -13932,7 +13898,7 @@ div#notebook {
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-b5a14f4a-38be-45fe-b452-6dedd37cb094">
+  <div id="df-1648a6e6-fc8a-429c-b204-ff76e8825808">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -14021,7 +13987,7 @@ div#notebook {
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-b5a14f4a-38be-45fe-b452-6dedd37cb094')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-1648a6e6-fc8a-429c-b204-ff76e8825808')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -14072,12 +14038,12 @@ div#notebook {
 
       <script>
         const buttonEl =
-          document.querySelector('#df-b5a14f4a-38be-45fe-b452-6dedd37cb094 button.colab-df-convert');
+          document.querySelector('#df-1648a6e6-fc8a-429c-b204-ff76e8825808 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-b5a14f4a-38be-45fe-b452-6dedd37cb094');
+          const element = document.querySelector('#df-1648a6e6-fc8a-429c-b204-ff76e8825808');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -14131,7 +14097,7 @@ div#notebook {
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-d5377edd-870e-4fc8-a6c8-264ba2db4f53">
+  <div id="df-ae03671e-3a48-4555-99e9-28c11b21e037">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -14220,7 +14186,7 @@ div#notebook {
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-d5377edd-870e-4fc8-a6c8-264ba2db4f53')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-ae03671e-3a48-4555-99e9-28c11b21e037')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -14271,12 +14237,12 @@ div#notebook {
 
       <script>
         const buttonEl =
-          document.querySelector('#df-d5377edd-870e-4fc8-a6c8-264ba2db4f53 button.colab-df-convert');
+          document.querySelector('#df-ae03671e-3a48-4555-99e9-28c11b21e037 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-d5377edd-870e-4fc8-a6c8-264ba2db4f53');
+          const element = document.querySelector('#df-ae03671e-3a48-4555-99e9-28c11b21e037');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -14411,7 +14377,7 @@ dtype: object</pre>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-84bee3e5-f1c8-4889-8623-76d23e77465f">
+  <div id="df-489eae11-e4a5-48eb-a473-5fe0434d56ab">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -14500,7 +14466,7 @@ dtype: object</pre>
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-84bee3e5-f1c8-4889-8623-76d23e77465f')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-489eae11-e4a5-48eb-a473-5fe0434d56ab')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -14551,12 +14517,12 @@ dtype: object</pre>
 
       <script>
         const buttonEl =
-          document.querySelector('#df-84bee3e5-f1c8-4889-8623-76d23e77465f button.colab-df-convert');
+          document.querySelector('#df-489eae11-e4a5-48eb-a473-5fe0434d56ab button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-84bee3e5-f1c8-4889-8623-76d23e77465f');
+          const element = document.querySelector('#df-489eae11-e4a5-48eb-a473-5fe0434d56ab');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -14600,7 +14566,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="n">airqualitydata</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;/content/C__Users_eugenie_Desktop_robyn_dataframe.csv&#39;</span><span class="p">)</span>
@@ -14618,13 +14584,13 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[13]:</div>
+    <div class="prompt output_prompt">Out[14]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-4c513eae-c950-421c-b9de-72484f488b75">
+  <div id="df-dec5d1e4-28d3-4f69-b63a-9a67d2d4178a">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -14900,7 +14866,7 @@ dtype: object</pre>
 </table>
 <p>109 rows × 18 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-4c513eae-c950-421c-b9de-72484f488b75')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-dec5d1e4-28d3-4f69-b63a-9a67d2d4178a')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -14951,12 +14917,12 @@ dtype: object</pre>
 
       <script>
         const buttonEl =
-          document.querySelector('#df-4c513eae-c950-421c-b9de-72484f488b75 button.colab-df-convert');
+          document.querySelector('#df-dec5d1e4-28d3-4f69-b63a-9a67d2d4178a button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-4c513eae-c950-421c-b9de-72484f488b75');
+          const element = document.querySelector('#df-dec5d1e4-28d3-4f69-b63a-9a67d2d4178a');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -14984,18 +14950,9 @@ dtype: object</pre>
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>ROBYN - 
-try running code from here onwards</p>
-
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">plotly.graph_objects</span> <span class="k">as</span> <span class="nn">go</span>
@@ -15013,7 +14970,7 @@ try running code from here onwards</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="n">api_token</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;pk.eyJ1IjoiZXVnZW5pZW5nIiwiYSI6ImNsYm9sbWFjNTA4bXIzb2p1eTUwdmJobWUifQ.KkWmUa79xakLsbtrX6PCFA&quot;</span><span class="p">)</span>
@@ -15044,7 +15001,7 @@ try running code from here onwards</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="n">mapbox_access_token</span> <span class="o">=</span> <span class="n">api_token</span>
@@ -15057,7 +15014,7 @@ try running code from here onwards</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">plotly</span>
@@ -15072,7 +15029,7 @@ try running code from here onwards</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">airqualitydata</span>
@@ -15085,7 +15042,21 @@ try running code from here onwards</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">plotly</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">renderers</span><span class="o">.</span><span class="n">default</span> <span class="o">=</span> <span class="s1">&#39;colab&#39;</span>
+<span class="c1">#re run the block generating the visualisation to make the output reappear</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">scatter_mapbox</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">hover_name</span><span class="o">=</span><span class="s1">&#39;LocationName&#39;</span><span class="p">,</span> <span class="n">lat</span><span class="o">=</span><span class="s2">&quot;Latitude&quot;</span><span class="p">,</span> <span class="n">lon</span><span class="o">=</span><span class="s2">&quot;Longitude&quot;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;PM25&quot;</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">600</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;AIR POLLUTION IN CHICAGO&quot;</span><span class="p">,</span>
@@ -15125,6 +15096,55 @@ try running code from here onwards</p>
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG"></script><script type="text/javascript">if (window.MathJax) {MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}</script>                <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script src="https://cdn.plot.ly/plotly-2.8.3.min.js"></script>                <div id="9c16752b-43a1-4915-aadd-9a589dbcceab" class="plotly-graph-div" style="height:600px; width:1000px;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("9c16752b-43a1-4915-aadd-9a589dbcceab")) {                    Plotly.newPlot(                        "9c16752b-43a1-4915-aadd-9a589dbcceab",                        [{"hovertemplate":"<b>%{hovertext}</b><br><br>Latitude=%{lat}<br>Longitude=%{lon}<br>PM25=%{marker.color}<extra></extra>","hovertext":["State & Garfield (SB)","State & Garfield (NB)","California & 26th (SB)","California & Cermak (SB)","California & Cermak (NB)","EPA COM ED Maintenance Bldg D","EPA Springfield Pump Station B","EPA Springfield Pump Station C","Chicago & Sacramento (EB)","EPA Village Garage B","EPA Village Garage C","EPA COM ED Maintenance Bldg C","39TH & HALSTED (WB)","ARCHER & THROOP (SB)","26th ST & Pulaski (WB)","Roosevelt & Homan (WB)","Northwest Highway & Devon (NWB)","Pulaski & 49th (SB)","Cottage Grove & Pershing (SB)","Clarendon & Montrose (SB)","Laramie & Lake (NB)","Western Ave & 43rd St (SB)","Cottage Grove & 83rd (SB)","Ashland & 43rd St (SB)","Harrison & Central (WB)","Fullerton & Pulaski (WB)","Madison & Hamlin (WB)","Kimball & Ardmore (SB)","Madison & Loomis (WB)","Belmont & Sheridan (WB)","Broadway & Wilson Ave (SWB)","Chicago & Hudson (WB)","Sheridan & Touhy (SB)","63rd & Damen (WB)","California & Devon (SB)","Nargansett & Montrose (SB)","Commercial & 89th (SB)","Lake Shore & Briar (SB)","Archer & Lavergne/LeClair (NEB)","Cottage & 53rd (NB)","Peterson & Wolcott (EB)","Cottage & 113th (SB)","63rd St & State 13 E (EB)","Western & 73rd (NB)","95th & Wentworth (WB)","63rd & Peoria (EB)","63rd & Pulaski (EB)","Pulaski & 71st (SB)","Archer & Mulligan/55th (NWB)","39th & Damen (WB)","61st & King (WB)","Central & Prescott (SB)","Ashland & 37th (SB)","Chicago & Cicero (EB)","100th & Torrence (WB)","Cottage Grove & 100th (NB)","Irving & Clark (EB)","26th & Central Park (WB)","Ashland & Pershing (SB)","Laramie & Madison (SB)","111th & Ellis (WB)","79th & Kostner (EB)","State & 31st St (NB)","Cottage Grove & 60th (SB)","Addison & Kennedy XWay (EB)","Central Park & Ogden (NB)","Irving Park & Kildare (EB)","Halsted & 111th (SB)","Kedzie & 24th (SB)","47th & Halsted (WB)","Division & Larrabee (EB)","Roosevelt & Western (WB)","Clark & 15th (NB)","Cermak & Ashland (WB)","Commercial & 85 (NB)","Sheridan & Hollywood (SB)","Ashland & Blackhawk (NB)","69th St & Bell Ave (EB)","Halsted & 87th (SB)","Western & 41st (SB)","63rd & Lamon (EB)","Cottage Grove & 49th St (SB)","Lincoln & California (NWB)","115th & Stewart (EB)","Grand & Laramie (EB)","Sheridan & Irving Park (NB)","Damen & Webster (SB)","Kedzie & Lake (NB)","Garfield & Aberdeen (WB)","Polk & L \"Above\" (WB)","87th & Western (WB)","EPA Village Garage D","Central & Madison (NB)","Western & 26th ST (SB)","26th ST & Kostner (WB)","26th & Keeler (EB)","South Shore & 77th (NB)","Ave O & 114th (NB)","Vincennes & 75th (NB)","Kedzie & 53rd (SB)","63rd & King Drive (EB)","Ashland & Belmont/Lincoln (NB)","Cicero & Hubbard (NB)","Belmont & Western (WB)","EPA Cicero B","State & 83rd (NB)","EPA Springfield Pump Station E","EPA Cicero C","EPA COM ED Maintenance Bldg F"],"lat":[41.794921,41.7955,41.8451,41.8524,41.8523,41.7514,41.91274,41.912741,41.8954,41.670993,41.670994,41.7516,41.823715840223066,41.84339211596036,41.8442,41.866448,41.997534,41.8049,41.824096,41.961992,41.8867,41.815867,41.7438,41.816041,41.87288,41.924611,41.8811,41.9861,41.881625,41.94,41.965146,41.896633,42.013052,41.7793,41.99772,41.9592,41.733871,41.93892,41.797916,41.7985,41.990623,41.6889,41.7799,41.7609,41.7218,41.7795,41.7785,41.76428,41.7924,41.8231,41.7838,41.9924,41.8267,41.894893,41.7136,41.7132,41.954291,41.84449318039236,41.823588,41.880092,41.69304615367332,41.7491,41.838137,41.78594895562553,41.946406,41.854286108203816,41.9533,41.692519,41.8488,41.8088,41.903627,41.866741,41.861773,41.852038,41.7414,41.985095,41.907237,41.7683,41.7359,41.81935577057992,41.7782,41.805564,41.98592,41.68517802886724,41.9169,41.95479,41.921581,41.8838,41.794492874333386,41.871645,41.735659,41.670992,41.8803,41.8454,41.84419,41.844104,41.7577,41.688054,41.75841,41.7968,41.78,41.939311,41.8879,41.939568,41.855243,41.7435,41.912739,41.855243,41.7512],"legendgroup":"","lon":[-87.625857,-87.6255,-87.695204,-87.6952,-87.6954,-87.713488,-87.722674,-87.722675,-87.7022,-87.732458,-87.732459,-87.71349,-87.6463462493363,-87.6545815311069,-87.7248,-87.710325,-87.807554,-87.7236,-87.607116,-87.649994,-87.7551,-87.684764,-87.6052,-87.665311,-87.764879,-87.726561,-87.7214,-87.7139,-87.66205,-87.6402,-87.657484,-87.639691,-87.663438,-87.6741,-87.69975,-87.7868,-87.551448,-87.63806,-87.747366,-87.6062,-87.677257,-87.6107,-87.6248,-87.6827,-87.6287,-87.6472,-87.7214,-87.722565,-87.7818,-87.6753,-87.6164,-87.7654,-87.6655,-87.746056,-87.5602,-87.605,-87.662438,-87.71455502567271,-87.665245,-87.754947,-87.60436600881806,-87.7302,-87.626522,-87.60616026597778,-87.717897,-87.71498342854358,-87.7354,-87.642557,-87.7052,-87.6481,-87.643443,-87.685757,-87.630143,-87.666366,-87.5513,-87.655334,-87.66745,-87.6794,-87.6437,-87.6846147423426,-87.7438,-87.606616,-87.699628,-87.63263004842011,-87.756,-87.65447,-87.6779,-87.706,-87.65276974912231,-87.66986,-87.682248,-87.732457,-87.7647,-87.6854,-87.7347,-87.729633,-87.554,-87.539967,-87.63108,-87.7038,-87.6168,-87.668496,-87.7455,-87.688703,-87.75247,-87.6242,-87.722673,-87.75247,-87.71349],"marker":{"color":[59.69780731201172,82.34664154052734,142.7839813232422,107.61608123779295,91.07481384277344,29.14507484436035,34.07932662963867,27.35401153564453,100.48382568359376,32.15212631225586,35.48706817626953,47.91462707519531,104.5504913330078,21.30870246887207,37.767189025878906,40.52894592285156,33.39413070678711,272.819091796875,69.76129150390625,104.59466552734376,53.63048553466797,28.814332962036133,50.17954635620117,131.0317840576172,92.77734375,30.736032485961918,70.67839050292969,32.84268569946289,135.92723083496094,33.27120590209961,89.10812377929688,313.5679931640625,51.41476821899414,229.45892333984372,107.41571044921876,46.979286193847656,186.6975860595703,39.40188980102539,36.69162368774414,127.2577133178711,32.92473602294922,37.618438720703125,74.83069610595703,265.5569763183594,53.20596694946289,54.73437881469727,232.0891265869141,275.58746337890625,51.59226608276367,31.31651306152344,32.17619705200195,27.5341854095459,250.40228271484372,491.0426025390625,94.81558227539062,117.23162841796876,51.32491302490234,51.59535598754883,173.1724395751953,27.409223556518555,37.644996643066406,34.053077697753906,32.91168594360352,33.52796173095703,41.35121536254883,129.22581481933594,394.1477355957031,139.8483428955078,51.6645393371582,64.54206085205078,29.577238082885746,91.68207550048828,32.396236419677734,55.38456726074219,34.96270751953125,41.18310546875,61.16044998168945,40.86011505126953,39.30727767944336,40.24430847167969,38.79360580444336,170.53781127929688,21.40126037597656,79.46149444580078,83.54927062988281,71.24111938476562,34.84459686279297,46.56178283691406,208.60968017578125,39.832611083984375,35.04850006103516,32.143280029296875,34.694828033447266,35.091068267822266,32.27178955078125,42.09116363525391,88.4524154663086,33.43124008178711,88.74449920654297,36.11080551147461,119.00862884521484,202.78517150878903,250.4424285888672,39.33848571777344,4.778116226196289,100.87256622314452,29.49068069458008,8.042784690856934,9.410823822021484],"coloraxis":"coloraxis","opacity":0.8,"size":10},"mode":"markers","name":"","showlegend":false,"subplot":"mapbox","type":"scattermapbox"}],                        {"template":{"data":{"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"#E5ECF6","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2}}},"mapbox":{"domain":{"x":[0.0,1.0],"y":[0.0,1.0]},"center":{"lat":41.83765599108127,"lon":-87.67994624815908},"zoom":9,"style":"carto-positron"},"coloraxis":{"colorbar":{"title":{"text":"PM25"}},"colorscale":[[0.0,"rgb(252, 222, 156)"],[0.16666666666666666,"rgb(250, 164, 118)"],[0.3333333333333333,"rgb(240, 116, 110)"],[0.5,"rgb(227, 79, 111)"],[0.6666666666666666,"rgb(220, 57, 119)"],[0.8333333333333334,"rgb(185, 37, 122)"],[1.0,"rgb(124, 29, 111)"]]},"legend":{"tracegroupgap":0,"title":{"font":{"color":"green"}}},"title":{"text":"AIR POLLUTION IN CHICAGO","font":{"size":35,"family":"PT Sans Narrow","color":"darkslategrey"},"xanchor":"center","yanchor":"top","y":0.94,"x":0.5},"height":600,"width":1000,"font":{"family":"PT Sans Narrow","color":"dimgrey"},"paper_bgcolor":"whitesmoke"},                        {"responsive": true}                    ).then(function(){
+                            
+var gd = document.getElementById('9c16752b-43a1-4915-aadd-9a589dbcceab');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })                };                            </script>        </div>
+</body>
+</html>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -15133,7 +15153,7 @@ try running code from here onwards</p>
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">google.colab</span> <span class="kn">import</span> <span class="n">files</span>
 <span class="n">files</span><span class="o">.</span><span class="n">upload</span><span class="p">()</span>
-<span class="c1">#upload EUGENIE_PM25_visualisations.ipynb</span>
+<span class="c1">#upload FINAL_EUGENIE_PM25_visualisations.ipynb</span>
 </pre></div>
 
     </div>
@@ -15152,9 +15172,9 @@ try running code from here onwards</p>
 
 <div class="output_html rendered_html output_subarea ">
 
-     <input type="file" id="files-9b0f52b2-5632-42a0-af1d-2275de565f78" name="files[]" multiple disabled
+     <input type="file" id="files-dd7f0584-a1fe-42d6-968d-8e1eead4e469" name="files[]" multiple disabled
         style="border:none" />
-     <output id="result-9b0f52b2-5632-42a0-af1d-2275de565f78">
+     <output id="result-dd7f0584-a1fe-42d6-968d-8e1eead4e469">
       Upload widget is only available when the cell has been executed in the
       current browser session. Please rerun this cell to enable.
       </output>
@@ -15362,7 +15382,7 @@ scope.google.colab._files = {
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">jupyter</span> <span class="n">nbconvert</span> <span class="err">—</span> <span class="n">to</span> <span class="n">html</span> <span class="n">EUGENIE_PM25_visualisations</span><span class="o">.</span><span class="n">ipynb</span>
+<div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">jupyter</span> <span class="n">nbconvert</span> <span class="err">—</span> <span class="n">to</span> <span class="n">html</span> <span class="n">FINAL_EUGENIE_PM25_visualisations</span><span class="o">.</span><span class="n">ipynb</span>
 </pre></div>
 
     </div>
@@ -15375,334 +15395,7 @@ scope.google.colab._files = {
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="n">files</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="err">‘</span><span class="n">EUGENIE_PM25_visualisations</span><span class="o">.</span><span class="n">html</span><span class="err">’</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="n">plotly</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">renderers</span><span class="o">.</span><span class="n">default</span> <span class="o">=</span> <span class="s1">&#39;colab&#39;</span>
-<span class="c1">#re run the block generating the visualisation to make the output reappear</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>ignore below</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="n">rawdata</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;/content/bus_stops.csv&quot;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="n">dft</span> <span class="o">=</span> <span class="n">rawdata</span><span class="o">.</span><span class="n">rename</span><span class="p">({</span><span class="s1">&#39;POINT_X&#39;</span><span class="p">:</span><span class="s1">&#39;Longitude&#39;</span><span class="p">,</span><span class="s1">&#39;POINT_Y&#39;</span><span class="p">:</span><span class="s1">&#39;Latitude&#39;</span><span class="p">},</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-
-<span class="n">busstops</span> <span class="o">=</span> <span class="n">dft</span>
-
-<span class="n">dft</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="n">stock</span> <span class="o">=</span> <span class="n">airqualitydata</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="n">stock</span> <span class="o">=</span> <span class="n">gpd</span><span class="o">.</span><span class="n">GeoDataFrame</span><span class="p">(</span>
-    <span class="n">stock</span><span class="p">,</span> <span class="n">geometry</span><span class="o">=</span><span class="n">gpd</span><span class="o">.</span><span class="n">points_from_xy</span><span class="p">(</span><span class="n">stock</span><span class="p">[</span><span class="s2">&quot;Longitude&quot;</span><span class="p">],</span> <span class="n">stock</span><span class="p">[</span><span class="s2">&quot;Latitude&quot;</span><span class="p">]),</span> <span class="n">crs</span><span class="o">=</span><span class="s2">&quot;epsg:4326&quot;</span>
-<span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="n">utm</span> <span class="o">=</span> <span class="n">stock</span><span class="o">.</span><span class="n">estimate_utm_crs</span><span class="p">()</span>
-<span class="n">stock</span> <span class="o">=</span> <span class="n">gpd</span><span class="o">.</span><span class="n">GeoDataFrame</span><span class="p">(</span>
-    <span class="n">stock</span><span class="p">,</span>
-    <span class="n">geometry</span><span class="o">=</span><span class="n">stock</span><span class="o">.</span><span class="n">to_crs</span><span class="p">(</span><span class="n">utm</span><span class="p">)</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span>
-        <span class="k">lambda</span> <span class="n">r</span><span class="p">:</span> <span class="n">r</span><span class="p">[</span><span class="s2">&quot;geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">buffer</span><span class="p">(</span><span class="n">r</span><span class="p">[</span><span class="s2">&quot;PM25&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">1000</span><span class="p">),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span>
-    <span class="p">),</span>
-    <span class="n">crs</span><span class="o">=</span><span class="n">utm</span><span class="p">,</span>
-<span class="p">)</span><span class="o">.</span><span class="n">to_crs</span><span class="p">(</span><span class="s2">&quot;epsg:4326&quot;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="n">tryingforlayers</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">scatter_mapbox</span><span class="p">(</span>
-    <span class="n">dft</span><span class="p">,</span> <span class="n">lat</span><span class="o">=</span><span class="s2">&quot;Latitude&quot;</span><span class="p">,</span> <span class="n">lon</span><span class="o">=</span><span class="s2">&quot;Longitude&quot;</span>
-<span class="p">)</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
-    <span class="n">mapbox</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;style&quot;</span><span class="p">:</span> <span class="s2">&quot;carto-positron&quot;</span><span class="p">,</span> <span class="s2">&quot;zoom&quot;</span><span class="p">:</span><span class="mi">9</span><span class="p">},</span>
-    <span class="n">margin</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;t&quot;</span><span class="p">:</span> <span class="mi">25</span><span class="p">,</span> <span class="s2">&quot;b&quot;</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;l&quot;</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">:</span><span class="mi">0</span><span class="p">}</span>
-<span class="p">)</span>
-
-<span class="n">layers</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="n">t</span><span class="o">.</span><span class="n">name</span><span class="p">:</span> <span class="p">{</span>
-        <span class="s2">&quot;source&quot;</span><span class="p">:</span> <span class="n">stock</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">stock</span><span class="p">[</span><span class="s2">&quot;LocationName&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">eq</span><span class="p">(</span><span class="n">t</span><span class="o">.</span><span class="n">name</span><span class="p">),</span> <span class="s2">&quot;geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">__geo_interface__</span><span class="p">,</span>
-        <span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;line&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;color&quot;</span><span class="p">:</span> <span class="n">t</span><span class="o">.</span><span class="n">marker</span><span class="o">.</span><span class="n">color</span><span class="p">,</span>
-    <span class="p">}</span>
-    <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">fig</span><span class="o">.</span><span class="n">data</span>
-<span class="p">}</span>
-
-<span class="n">tryingforlayers</span> <span class="o">=</span> <span class="n">tryingforlayers</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">mapbox_layers</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="n">layers</span><span class="o">.</span><span class="n">values</span><span class="p">()))</span>
-
-<span class="n">tryingforlayers</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
-    <span class="n">updatemenus</span><span class="o">=</span><span class="p">[</span>
-        <span class="p">{</span>
-            <span class="s2">&quot;buttons&quot;</span><span class="p">:</span> <span class="p">[</span>
-                <span class="p">{</span>
-                    <span class="s2">&quot;label&quot;</span><span class="p">:</span> <span class="n">q</span><span class="p">,</span>
-                    <span class="s2">&quot;method&quot;</span><span class="p">:</span> <span class="s2">&quot;update&quot;</span><span class="p">,</span>
-                    <span class="s2">&quot;args&quot;</span><span class="p">:</span> <span class="p">[</span>
-                        <span class="p">{</span><span class="s2">&quot;visible&quot;</span><span class="p">:</span> <span class="p">[</span><span class="n">t2</span><span class="o">.</span><span class="n">name</span> <span class="o">==</span> <span class="n">q</span> <span class="ow">or</span> <span class="n">q</span> <span class="o">==</span> <span class="s2">&quot;All&quot;</span> <span class="k">for</span> <span class="n">t2</span> <span class="ow">in</span> <span class="n">fig</span><span class="o">.</span><span class="n">data</span><span class="p">]},</span>
-                        <span class="p">{</span>
-                            <span class="s2">&quot;title&quot;</span><span class="p">:</span> <span class="n">q</span><span class="p">,</span>
-                            <span class="s2">&quot;mapbox&quot;</span><span class="p">:</span> <span class="p">{</span>
-                                <span class="s2">&quot;style&quot;</span><span class="p">:</span> <span class="n">fig</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">mapbox</span><span class="o">.</span><span class="n">style</span><span class="p">,</span>
-                                <span class="s2">&quot;center&quot;</span><span class="p">:</span> <span class="n">fig</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">mapbox</span><span class="o">.</span><span class="n">center</span><span class="p">,</span>
-                                <span class="s2">&quot;zoom&quot;</span><span class="p">:</span> <span class="n">fig</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">mapbox</span><span class="o">.</span><span class="n">zoom</span><span class="p">,</span>
-                                <span class="s2">&quot;layers&quot;</span><span class="p">:</span> <span class="p">[</span><span class="n">layers</span><span class="p">[</span><span class="n">q</span><span class="p">]]</span>
-                                <span class="k">if</span> <span class="n">q</span> <span class="o">!=</span> <span class="s2">&quot;All&quot;</span>
-                                <span class="k">else</span> <span class="nb">list</span><span class="p">(</span><span class="n">layers</span><span class="o">.</span><span class="n">values</span><span class="p">()),</span>
-                            <span class="p">},</span>
-                        <span class="p">},</span>
-                    <span class="p">],</span>
-                <span class="p">}</span>
-                <span class="k">for</span> <span class="n">q</span> <span class="ow">in</span> <span class="n">stock</span><span class="p">[</span><span class="s2">&quot;LocationName&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span> <span class="o">+</span> <span class="p">[</span><span class="s2">&quot;All&quot;</span><span class="p">]</span>
-            <span class="p">],</span>
-        <span class="p">}</span>
-    <span class="p">]</span>
-<span class="p">)</span>
-
-<span class="n">tryingforlayers</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">scatter_mapbox</span><span class="p">(</span>
-    <span class="n">airqualitydata</span><span class="p">,</span> 
-    <span class="n">lat</span><span class="o">=</span><span class="n">airqualitydata</span><span class="p">[</span><span class="s2">&quot;Latitude&quot;</span><span class="p">],</span> 
-    <span class="n">lon</span><span class="o">=</span><span class="n">airqualitydata</span><span class="p">[</span><span class="s2">&quot;Longitude&quot;</span><span class="p">],</span> 
-    <span class="n">color</span><span class="o">=</span><span class="n">airqualitydata</span><span class="p">[</span><span class="s1">&#39;PM25&#39;</span><span class="p">],</span> 
-    <span class="n">hover_name</span><span class="o">=</span><span class="n">airqualitydata</span><span class="p">[</span><span class="s2">&quot;LocationName&quot;</span><span class="p">],</span>
-    <span class="n">color_continuous_scale</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;yellow&quot;</span><span class="p">,</span> <span class="s2">&quot;orange&quot;</span><span class="p">,</span> <span class="s2">&quot;red&quot;</span> <span class="p">],</span> <span class="n">size_max</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span> <span class="n">zoom</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span>
-    <span class="n">height</span> <span class="o">=</span> <span class="mi">600</span><span class="p">,</span> 
-    <span class="n">width</span> <span class="o">=</span> <span class="mi">1000</span><span class="p">,</span> <span class="c1">#center = dict(lat = g.center),</span>
-    <span class="n">title</span><span class="o">=</span><span class="s2">&quot;Chicago Air Pollution&quot;</span><span class="p">,</span>
-    <span class="n">mapbox_style</span><span class="o">=</span><span class="s2">&quot;stamen-toner&quot;</span>
-    <span class="p">)</span>
-
-<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
-    <span class="n">font_size</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> 
-    <span class="n">title</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;xanchor&#39;</span><span class="p">:</span> <span class="s1">&#39;center&#39;</span><span class="p">,</span><span class="s1">&#39;yanchor&#39;</span><span class="p">:</span> <span class="s1">&#39;top&#39;</span><span class="p">,</span> <span class="s1">&#39;y&#39;</span><span class="p">:</span><span class="mf">0.9</span><span class="p">,</span> <span class="s1">&#39;x&#39;</span><span class="p">:</span><span class="mf">0.5</span><span class="p">,},</span> 
-    <span class="n">title_font_size</span> <span class="o">=</span> <span class="mi">24</span><span class="p">,</span> 
-    <span class="n">mapbox_accesstoken</span><span class="o">=</span><span class="n">api_token</span><span class="p">,</span> <span class="n">mapbox_style</span> <span class="o">=</span> <span class="s2">&quot;mapbox://styles/mapbox/satellite-streets-v12&quot;</span><span class="p">)</span>
-
-<span class="n">fig</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span>
-    <span class="n">marker</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
-        <span class="n">size</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span>
-        <span class="n">opacity</span> <span class="o">=</span> <span class="mf">0.8</span>
-        <span class="p">))</span>
-
-<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="c1"># this is the code that Ollie edited and ran for us in his office hours</span>
-<span class="c1"># it worked then and also for a bit afterwards</span>
-<span class="c1"># but now it just doesn&#39;t load anything for me</span>
-
-<span class="kn">import</span> <span class="nn">plotly.graph_objects</span> <span class="k">as</span> <span class="nn">go</span>
-<span class="kn">import</span> <span class="nn">plotly.express</span> <span class="k">as</span> <span class="nn">px</span>
-
-<span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">line_geo</span><span class="p">(</span><span class="n">lat</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">15</span><span class="p">,</span><span class="mi">20</span><span class="p">,</span><span class="mi">35</span><span class="p">],</span> <span class="n">lon</span><span class="o">=</span><span class="p">[</span><span class="mi">5</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">25</span><span class="p">,</span><span class="mi">30</span><span class="p">])</span>
-<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">go</span><span class="o">.</span><span class="n">Scattergeo</span><span class="p">(</span>
-        <span class="n">lon</span> <span class="o">=</span> <span class="n">airqualitydata</span><span class="p">[</span><span class="s1">&#39;Longitude&#39;</span><span class="p">],</span>
-        <span class="n">lat</span> <span class="o">=</span> <span class="n">airqualitydata</span><span class="p">[</span><span class="s1">&#39;Latitude&#39;</span><span class="p">],</span>
-        <span class="n">mode</span> <span class="o">=</span> <span class="s1">&#39;markers&#39;</span><span class="p">,</span>
-        <span class="c1"># marker_color = airqualitydata[&#39;PM25&#39;],</span>
-        <span class="n">marker</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
-            <span class="n">size</span> <span class="o">=</span> <span class="mi">8</span><span class="p">,</span>
-            <span class="n">opacity</span> <span class="o">=</span> <span class="mf">0.8</span><span class="p">,</span>
-            <span class="n">reversescale</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span>
-            <span class="n">autocolorscale</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
-            <span class="n">symbol</span> <span class="o">=</span> <span class="s1">&#39;square&#39;</span><span class="p">,</span>
-            <span class="n">line</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
-                <span class="n">width</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
-                <span class="n">color</span><span class="o">=</span><span class="s1">&#39;rgba(102, 102, 102)&#39;</span>
-            <span class="p">),</span>
-            <span class="n">colorscale</span> <span class="o">=</span> <span class="s1">&#39;bluered&#39;</span><span class="p">,</span>
-            <span class="n">cmin</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span>
-            <span class="n">color</span> <span class="o">=</span> <span class="n">airqualitydata</span><span class="p">[</span><span class="s1">&#39;PM25&#39;</span><span class="p">],</span>
-            <span class="n">cmax</span> <span class="o">=</span> <span class="n">airqualitydata</span><span class="p">[</span><span class="s1">&#39;PM25&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">(),</span>
-            <span class="n">colorbar_title</span><span class="o">=</span><span class="s2">&quot;PM2.5 measurement&quot;</span>
-        <span class="p">)))</span>
-
-<span class="n">fig</span><span class="o">.</span><span class="n">update_geos</span><span class="p">(</span><span class="n">fitbounds</span><span class="o">=</span><span class="s2">&quot;locations&quot;</span><span class="p">)</span>
-
-<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
-        <span class="n">title</span> <span class="o">=</span> <span class="s1">&#39;Air pollution in Chicago&#39;</span><span class="p">,</span>
-        <span class="n">geo_scope</span><span class="o">=</span><span class="s1">&#39;usa&#39;</span><span class="p">,</span>
-        <span class="n">height</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span>
-        <span class="n">width</span><span class="o">=</span><span class="mi">900</span>
-        <span class="c1"># margin={&quot;r&quot;:0,&quot;t&quot;:0,&quot;1&quot;:0,&quot;b&quot;:0}</span>
-    <span class="p">)</span>
-<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="c1"># the codes from here onwards are by me editing templates already existing online</span>
-<span class="c1"># if ollie&#39;s code (the one above) works then we should probs just used that</span>
-<span class="c1"># i&#39;m mainly trying out different codes because I wanted to see if i could make the basemap satellite (ollie&#39;s version is just grey basemap) </span>
-
-<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">go</span><span class="o">.</span><span class="n">Scattergeo</span><span class="p">(</span>
-        <span class="n">lon</span> <span class="o">=</span> <span class="n">airqualitydata</span><span class="p">[</span><span class="s1">&#39;Longitude&#39;</span><span class="p">],</span>
-        <span class="n">lat</span> <span class="o">=</span> <span class="n">airqualitydata</span><span class="p">[</span><span class="s1">&#39;Latitude&#39;</span><span class="p">],</span>
-        <span class="n">text</span> <span class="o">=</span> <span class="n">airqualitydata</span><span class="p">[</span><span class="s1">&#39;LocationName&#39;</span><span class="p">],</span>
-        <span class="n">mode</span> <span class="o">=</span> <span class="s1">&#39;markers&#39;</span><span class="p">,</span>
-        <span class="n">marker_color</span> <span class="o">=</span> <span class="n">airqualitydata</span><span class="p">[</span><span class="s1">&#39;PM25&#39;</span><span class="p">],</span>
-        <span class="p">))</span>
-
-<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
-        <span class="n">title</span> <span class="o">=</span> <span class="s1">&#39;Most trafficked US airports&lt;br&gt;(Hover for airport names)&#39;</span><span class="p">,</span>
-        <span class="n">geo_scope</span><span class="o">=</span><span class="s1">&#39;usa&#39;</span><span class="p">,</span>
-    <span class="p">)</span>
-<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">go</span><span class="o">.</span><span class="n">Scattergeo</span><span class="p">(</span>
-        <span class="n">locationmode</span> <span class="o">=</span> <span class="s1">&#39;USA-states&#39;</span><span class="p">,</span>
-        <span class="n">lon</span> <span class="o">=</span> <span class="n">airqualitydata</span><span class="p">[</span><span class="s1">&#39;Longitude&#39;</span><span class="p">],</span>
-        <span class="n">lat</span> <span class="o">=</span> <span class="n">airqualitydata</span><span class="p">[</span><span class="s1">&#39;Latitude&#39;</span><span class="p">],</span>
-        <span class="c1">#text = airqualitydata[&#39;LocationName&#39;],</span>
-        <span class="n">mode</span> <span class="o">=</span> <span class="s1">&#39;markers&#39;</span><span class="p">,</span>
-        <span class="n">marker</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
-            <span class="n">size</span> <span class="o">=</span> <span class="mi">8</span><span class="p">,</span>
-            <span class="n">opacity</span> <span class="o">=</span> <span class="mf">0.8</span><span class="p">,</span>
-            <span class="n">reversescale</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span>
-            <span class="n">autocolorscale</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
-            <span class="n">symbol</span> <span class="o">=</span> <span class="s1">&#39;square&#39;</span><span class="p">,</span>
-            <span class="n">line</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
-                <span class="n">width</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
-                <span class="n">color</span><span class="o">=</span><span class="s1">&#39;rgba(102, 102, 102)&#39;</span>
-            <span class="p">),</span>
-            <span class="n">colorscale</span> <span class="o">=</span> <span class="s1">&#39;Blues&#39;</span><span class="p">,</span>
-            <span class="n">cmin</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
-            <span class="n">color</span> <span class="o">=</span> <span class="n">airqualitydata</span><span class="p">[</span><span class="s1">&#39;PM25&#39;</span><span class="p">],</span>
-            <span class="n">cmax</span> <span class="o">=</span> <span class="n">airqualitydata</span><span class="p">[</span><span class="s1">&#39;PM25&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">(),</span>
-            <span class="n">colorbar_title</span><span class="o">=</span><span class="s2">&quot;PM2.5&quot;</span>
-        <span class="p">)))</span>
-
-<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
-        <span class="n">title</span> <span class="o">=</span> <span class="s1">&#39;Chicago Air Pollution Readings &lt;br&gt;(Hover for street names)&#39;</span><span class="p">,</span>
-        <span class="n">geo</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
-            <span class="n">scope</span><span class="o">=</span><span class="s1">&#39;usa&#39;</span><span class="p">,</span>
-            <span class="n">projection_type</span><span class="o">=</span><span class="s1">&#39;albers usa&#39;</span><span class="p">,</span>
-            <span class="n">showland</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span>
-            <span class="n">landcolor</span> <span class="o">=</span> <span class="s2">&quot;rgb(250, 250, 250)&quot;</span><span class="p">,</span>
-            <span class="n">subunitcolor</span> <span class="o">=</span> <span class="s2">&quot;rgb(217, 217, 217)&quot;</span><span class="p">,</span>
-            <span class="n">countrycolor</span> <span class="o">=</span> <span class="s2">&quot;rgb(217, 217, 217)&quot;</span><span class="p">,</span>
-            <span class="n">countrywidth</span> <span class="o">=</span> <span class="mf">0.5</span><span class="p">,</span>
-            <span class="n">subunitwidth</span> <span class="o">=</span> <span class="mf">0.5</span>
-        <span class="p">),</span>
-    <span class="p">)</span>
-<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+<div class=" highlight hl-python"><pre><span></span><span class="n">files</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="err">‘</span><span class="n">FINAL_EUGENIE_PM25_visualisations</span><span class="o">.</span><span class="n">html</span><span class="err">’</span><span class="p">)</span>
 </pre></div>
 
     </div>
