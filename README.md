@@ -9,3 +9,7 @@ busstopicons.html - contains html code for visualisation of geographic distribut
 bikestopdots.html - contains html code for visualisation of geographic distribution of Divvy bike stops in dot marker form
 
 bikestopicon.html - contains html code for visualisation of geographic distribution of Divvy bike stops in "bike" marker form
+
+greenroofdots.html - contains html code for visualisation of geographic distribution of green roofs in Chicago in dot marker form 
+
+greenrooficons.html - contains html code for visualisation of geographic distribution of green roofs in Chicago in "flower" marker form 
