@@ -1,6 +1,6 @@
 hosting the html files of our Plotly visualisations on Github so that we may display it on our website! - https://rretqm.wixsite.com/transport-in-chicago 
 
-file.html - contains html code for the PM2.5 visualisation
+file.html - contains html code for visualisation of geographic distribution of air quality sensors across Chicago + highest PM2.5 measurements recorded by each sensor
 
 busstopdots.html - contains html code for visualisation of geographic distribution of CTA bus stops in dot marker form
 
