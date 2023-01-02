@@ -20,7 +20,7 @@ railstationdots.html - contains html code for visualisation of geographic distri
 
 railstationicons.html - contains html code for visualisation of geographic distribution of L rail stations in "metro" marker form
 
-**Datasets**
+**DATASETS**
 
 C__Users_eugenie_Desktop_robyn_dataframe.csv - .csv file containing PM2.5 data recorded by Project Eclipse air quality sensors throughout Chicago
 
