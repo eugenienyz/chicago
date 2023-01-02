@@ -13,3 +13,8 @@ bikestopicon.html - contains html code for visualisation of geographic distribut
 greenroofdots.html - contains html code for visualisation of geographic distribution of green roofs in Chicago in dot marker form 
 
 greenrooficons.html - contains html code for visualisation of geographic distribution of green roofs in Chicago in "flower" marker form 
+
+railstationdots.html - contains html code for visualisation of geographic distribution of L rail stations in dot marker form 
+
+railstationicons.html - contains html code for visualisation of geographic distribution of L rail stations in "metro" marker form
+
