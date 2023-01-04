@@ -8,6 +8,8 @@ file.html - contains html code for visualisation of geographic distribution of a
 
 FINAL_EUGENIE_PM25_visualisations.html - is the html file containing code used to create file.html
 
+pm2_5_boxplot.html - contains html code for boxplot distribution of PM2.5 values in Chicago
+
 busstopdots.html - contains html code for visualisation of geographic distribution of CTA bus stops in dot marker form
 
 busstopicons.html - contains html code for visualisation of geographic distribution of CTA bus stops in the "bus" marker form 
