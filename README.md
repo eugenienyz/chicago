@@ -2,6 +2,8 @@ hosting the html files of our Plotly visualisations on Github so that we may dis
 
 **HTML FILES**
 
+air_quality_download_data.html - contains html code demonstrating how we cleaned data downloaded from Project Eclipse's site  
+
 file.html - contains html code for visualisation of geographic distribution of air quality sensors across Chicago + highest PM2.5 measurements recorded by each sensor
 
 FINAL_EUGENIE_PM25_visualisations.html - is the html file containing code used to create file.html
