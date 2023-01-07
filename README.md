@@ -14,7 +14,7 @@ busstopdots.html - contains html code for visualisation of geographic distributi
 
 busstopicons.html - contains html code for visualisation of geographic distribution of CTA bus stops in the "bus" marker form 
 
-FINAL_chicago_bus_stops_map_visualisation.html - is the html file containing code used to create busstopdots.html & busstopicons.html
+FFFINAL_chicago_bus_stops_map_visualisation.html - is the html file containing code used to create busstopdots.html & busstopicons.html
 
 bikestopdots.html - contains html code for visualisation of geographic distribution of Divvy bike stops in dot marker form
 
