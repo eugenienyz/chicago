@@ -28,6 +28,8 @@ railstationdots.html - contains html code for visualisation of geographic distri
 
 railstationicons.html - contains html code for visualisation of geographic distribution of L rail stations in "metro" marker form
 
+Chicago_New_Regression.html - contains html code for notebook coding regression including summary statistics, visualisation, correlation matrix, and heteroscedasticity, and OLS table
+
 **JAVASCRIPT FILES**
 
 plotly.js - contains JavaScript code needed to create the html files of the entire Colab notebook with plotly graphs remaining interactive
